@@ -1,3 +1,6 @@
+using DSP, Statistics, Wavelets, ContinuousWavelets
+
+
 """
     calc_spectrum(d, fs)
 computes the power spectrum density of vector `d` using sample frequency `fs` and a Blackman window 
