@@ -1,3 +1,5 @@
+using LinearAlgebra
+
 """
     calc_recurrence(u; tol)
 calculates the recurrence matrix of the vector `u` that represents 
